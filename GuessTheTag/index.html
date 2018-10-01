@@ -1,0 +1,41 @@
+<!DOCTYPE <!DOCTYPE html>
+<html>
+<head>
+    <title>Tumblr API (GuessTheTag)</title>
+    <!-- <meta charset="utf-8" /> -->
+    <!-- <meta http-equiv="X-UA-Compatible" content="IE=edge"> -->
+    <!-- <meta name="viewport" content="width=device-width, initial-scale=1"> -->
+    <link rel="stylesheet" type="text/css" media="screen" href="style.css" />
+    <link href="https://fonts.googleapis.com/css?family=Architects+Daughter" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Changa" rel="stylesheet">
+</head>
+
+<body>
+    <h1 id='top'>Guess the Tags!</h1>
+
+    <!-- Seach bar-->
+    <form id="query-form">
+        <!-- <input id="query" type="text"/>
+        <input type="submit" value="Search"/> -->
+    </form>
+
+    <div id='resultmessage'> </div>
+    <div id='resultmessagewrong'> </div>
+
+    <div id="guesstag">
+        <button id="tag1" class="bob" onClick="guessTag(this.id)" value=""></button>
+        <button id="tag2" class="bob" onClick="guessTag(this.id)" value=""></button>
+        <button id="tag3" class="bob" onClick="guessTag(this.id)" value=""></button>
+        <button id="tag4" class="bob" onClick="guessTag(this.id)" value=""></button>
+        <button id="tag5" class="bob" onClick="guessTag(this.id)" value=""></button>
+        
+    </div>
+
+    <ul id="list-data">
+
+    </ul>
+    
+    <script src="masonry.pkgd.min.js"></script>
+    <script src="script.js"></script>
+</body>
+</html>

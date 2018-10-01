@@ -1,0 +1,56 @@
+body {
+    background-image: url("darkness.png");
+    
+}
+
+#top {
+    /* border: 2px solid turquoise; */
+    /* background-color: grey; */
+    /* background-image: url("funky-lines.png"); */
+    text-align: center;
+    color: white;
+    text-shadow: 2px 2px purple;
+    font-size: 60px;
+    font-family: 'Architects Daughter', cursive;
+}
+
+#query-form{
+    text-align: center;
+    
+}
+
+
+#list-data li {
+    display: inline-block;
+    max-width: 200px;
+
+}
+
+li img {
+    max-width: 100%;
+    vertical-align: middle;
+}
+
+
+/* guess tag */
+button{
+    height:60px;
+    width:120px;
+    margin: 20px;
+}
+
+#guesstag {
+    text-align: center;
+}
+
+#resultmessage {
+    text-align: center;
+    font-size: 35px;
+    color: white;
+    text-shadow: 2px 2px blueviolet;
+    /* font-family: 'Architects Daughter', cursive; */
+    font-weight: bold;
+    font-family: 'Changa', sans-serif;
+    
+}
+
